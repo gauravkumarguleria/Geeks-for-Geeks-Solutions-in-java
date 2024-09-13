@@ -6,3 +6,12 @@ class Solution{
         
     }
 }
+
+
+//////////////////////////////////////////////////
+class Solution{
+    static long factorial(int N){
+        return (N==0)?1:N*factorial(N-1);
+        
+    }
+}
