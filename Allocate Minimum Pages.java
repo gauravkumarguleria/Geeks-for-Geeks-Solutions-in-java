@@ -32,6 +32,7 @@ class Solution {
         }
         return ans;
     }
+
     
     public static long findPages(int books, int[] pages, int students) {
         if(books<students) return -1;
@@ -49,4 +50,4 @@ class Solution {
         }
         return left;
     }
-};
+}
